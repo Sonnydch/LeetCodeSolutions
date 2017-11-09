@@ -1,3 +1,5 @@
+import com.sun.tools.internal.ws.wsdl.document.soap.SOAPUse;
+
 public class Main {
 
 
@@ -9,11 +11,12 @@ public class Main {
 //        RomanToInt r = new RomanToInt();
 //        System.out.println(r.romanToInt("XCIV"));
 
-        LongestCP cp = new LongestCP();
-       String[] ss= {"ss","ss","s1"};
-        System.out.println(cp.longestCommonPrefix(ss));
+//        LongestCP cp = new LongestCP();
+//       String[] ss= {"ss","ss","s1"};
+//        System.out.println(cp.longestCommonPrefix(ss));
 
-
+        IsValid iv = new IsValid();
+        System.out.println(iv.isValid("(){}[{"));
     }
 
 }
