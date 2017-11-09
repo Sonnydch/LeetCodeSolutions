@@ -6,8 +6,13 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        RomanToInt r = new RomanToInt();
-        System.out.println(r.romanToInt("XCIV"));
+//        RomanToInt r = new RomanToInt();
+//        System.out.println(r.romanToInt("XCIV"));
+
+        LongestCP cp = new LongestCP();
+       String[] ss= {"ss","ss","s1"};
+        System.out.println(cp.longestCommonPrefix(ss));
+
 
     }
 
